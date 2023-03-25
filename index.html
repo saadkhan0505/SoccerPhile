@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=EB+Garamond&family=Encode+Sans+Semi+Condensed&family=Vollkorn&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo8.png">
+            </div>
+            <ul id="list">
+                <li><a href="#banner"><i class="fa-solid fa-house-chimney"></i>HOME</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i>ABOUT US</a></li>
+                <li><a href="#services"><i class="fa-solid fa-clone"></i>PARTNERS</a></li>
+                <li><a href="#testimonials"><i class="fa-solid fa-handshake"></i>TESTIMONIAL</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-phone"></i>CONTACT</a></li>
+                <img src="images/arrow.png" alt="" id="closeMenu">
+            </ul>
+            <img src="images/menu.png" id="sideMenu">
+        </div>
+    </div>
+
+    <section id="banner">
+        <div class="banner-text">
+            <h1>SOCCERPHILE</h1>
+            <h3>ONLINE TICKETS BOOKING PLATFORM OF FOOTBALL MATCHES</h3>
+            <!-- <button type="button">CLICK ON ME</button> -->
+
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="title">ABOUT US</h1>
+        <div class="row">
+            <div class="col-left">
+                <div class="content">
+                    <h3>We Are Different</h3>
+                    <p>SoccerPhile steps in with online ticket booking platform in Pakistan and eliminates the need to stand in never-ending
+                        queues and chase travel agents that make travel a stressful thing. SoccerPhile has the e-ticketing solution
+                        to all your ticketing problems. Now buy your tickets online at a discounted price and fix your spot.
+                        Moreover, we enable you to get cheap e-tickets with our in-app bundles. Save big on your intercity
+                        travel by availing massive discounts on bus and domestic flight tickets. With SoccerPhile, you can browse
+                        through hundreds of bus operators and airlines to find the most affordable option for yourself.
+                    </p>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="content-image">
+                    <img src="images/bacimg17.png" alt="">  <!-- 9 17 23 -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <form action="" id="form" onsubmit="" method="post">
+            <h1 class="main_heading">GET YOUR TICKETS</h1>
+            <h2>Booking for Tickets</h2>
+            <p>Required Fields are followed by *</p> <br>
+            <p>Name: * <input type="text" id="name" name="name" placeholder="Ahmad Ali" required></p>
+        
+            <p>Email: <input type="email" name="email" id="email" required placeholder="ahmad@gmail.com"></p>
+            <p>Quantity: <input type="number" name="ticket" id="quantity" placeholder="Enter tickets quantity" max="10" min="1"></p>
+            <h2>Select Your Payment Method:</h2>
+            <p>Card Type:
+                <select name="card_type" id="card_type" required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa">Jazz Cash</option>
+                    <option value="rupay">Easy Paisa</option>
+                    <option value="mastercard">Credit/Debit Card</option>
+                </select>
+            </p>
+            <p>
+                Card Number: * <input type="text" name="card_number1" id="card_number1" required placeholder="1111-222-333-444">
+            </p>
+            <p>
+                Expiration Date: <input type="date" name="exp_date" id="exp_date" required>
+            </p>
+            <p>
+                CVV: <input type="password" name="cvv" id="cvv" required placeholder="123">
+            </p>
+            <button class="pay-btn">Pay Now</button>
+        </form>
+    </div>
+    
+    <section id="services">
+        <h1 class="title">OUR PARTNERS</h1>
+        <div class="row">
+            <div class="col">
+                <div class="service">
+                    <!-- <i class="fa-solid fa-chart-line"></i> -->
+                    <h3>EMIRATES AIRLINE</h3>
+                    <p><img class="partners" src="images/emirates6.png" alt=""></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="service">
+                    <!-- <i class="fa-solid fa-podcast"></i> -->
+                    <h3>P I A</h3>
+                    <p><img class="partners" src="images/PIA-logo-vector-scaled.jpg" alt=""></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="service">
+                    <!-- <i class="fa-solid fa-bullhorn"></i> -->
+                    <h3>QATAR AIRWAYS</h3>
+                    <p><img class="partners" src="images/qatar1.png" alt=""></p>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </section>
+    <section id="services">
+        <h1 class="title">FAMOUS FOOTBALL LEAGUES</h1>
+        <div class="row">
+            <div class="col">
+                <div class="service">
+                    <!-- <i class="fa-solid fa-chart-line"></i> -->
+                    <h3>ENGLISH FOOTBALL LEAGUE</h3>
+                    <p><img class="partners" src="images/efl.jpg" alt=""></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="service">
+                    <!-- <i class="fa-solid fa-podcast"></i> -->
+                    <h3>LALIGA FOOTBALL LEAGUE</h3>
+                    <p><img class="partners" src="images/laliga1.jpg" alt=""></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="service">
+                    <!-- <i class="fa-solid fa-bullhorn"></i> -->
+                    <h3>PREMIER FOOTBALL LEAGUE</h3>
+                    <p><img class="partners" src="images/pl7.png" alt=""></p>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h1 class="title">CLIENT REVIEWS</h1>
+        <div class="row">
+            <div class="col">
+                <div class="testimonial"><div class=""></div>
+                    <img src="images/man1.jpg" alt="">
+                    <div class="info">
+                        <h3>Sam David</h3>
+                        <p>@samdavid0303</p>
+                    </div>
+                    <p><i class="fa-solid fa-quote-left"></i>"I have used this football ticket booking website multiple times and it's the most reliable and efficient platform out there! The booking process is easy and the customer support team is always ready to assist with any queries. I highly recommend it to all football enthusiasts!"<i class="fa-solid fa-quote-right"></i></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="testimonial">
+                    <img src="images/man2.jpg" alt="">
+                    <div class="info">
+                        <h3>Tom Mitchell </h3>
+                        <p>@tommitchell123</p>
+                    </div>
+                    <p><i class="fa-solid fa-quote-left"></i>"I always check this website first when I'm looking for football tickets. They always have great deals and the tickets are always delivered on time. I've never had a bad experience with this website and I will continue to use it for all my football ticket needs."<i class="fa-solid fa-quote-right"></i></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="testimonial">
+                    <img src="images/man3.png" alt="">
+                    <div class="info">
+                        <h3>Stuart Clark</h3>
+                        <p>@stuart.clark43</p>
+                    </div>
+                    <p><i class="fa-solid fa-quote-left"></i>"This website has made it so easy for me to book football tickets. The process is seamless and the tickets are always delivered in a timely manner. I don't think I'll ever use another ticket booking site again. I'm so glad I found this website!"
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="title">CONTACT US</h1>
+        <div class="row">
+            <div class="col-left">
+                <div class="location">
+                    <div class="address-line">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>SoccerPhile Center, Karachi</p>
+                    </div>
+                    <div class="address-line">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+92-3547873948</p>
+                    </div>
+                    <div class="address-line">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>SoccerPhile@gmail.com</p>
+                    </div>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="contact-form">
+                    <h3>GET IN TOUCH</h3>
+                    <form>
+                        <div class="input-group">
+                            <input type="text1" placeholder="Name"> &nbsp;
+                            <input type="email1" placeholder="Email">
+                        </div>
+                        <textarea rows="5" placeholder="leave message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; August 2022 - Onwards &nbsp; SoccerPhile. All rights reserved.</p>
+        
+    </section>
+
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var display = document.getElementById("sideMenu");
+        var hidden = document.getElementById("closeMenu");
+        var list = document.getElementById("list");
+        display.onclick = function () {
+            list.style.visibility = "visible";
+            list.style.right = "0%";
+        }
+        hidden.onclick = function () {
+            list.style.right = "-50%";
+        }
+        var scroll = new SmoothScroll('a[href*="#"]');
+
+    </script>
+    <script >
+        const form = document.getElementById("form");
+        function downloadBlob(content, filename, contentType) {
+            const name = document.getElementById('name').value;
+            // const email = document.getElementById('email').value
+            // const quantity = document.getElementById('quantity').value;
+            // const card_type = document.getElementById('card_type').value;
+            // const card_no = document.getElementById('card_number1').value;
+            //const exp_date = document.getElementById('exp_date').value;
+            //const cvv1 = document.getElementById('cvv').value;
+            
+            console.log('name', name)
+            console.log('hello')
+  // Create a blob
+  var blob = new Blob([content], { type: contentType });
+  var url = URL.createObjectURL(blob);
+
+  // Create a link to download it
+  var pom = document.createElement('a');
+  pom.href = url;
+  pom.setAttribute('download', filename);
+  pom.click();
+}
+
+console.log('world')
+// Add 'submit' event handler
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+//   downloadBlob([[name, email, quantity, card_type, card_no, exp_date, ccv1]], 'data.csv', 'text/csv;charset=utf-8;');});
+  downloadBlob([[name,]], 'data.csv', 'text/csv;charset=utf-8;');});
+    </script>
+</body>
+
+</html>
